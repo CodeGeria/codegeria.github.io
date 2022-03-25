@@ -1,0 +1,173 @@
+* {box-sizing: border-box;}
+#clear{clear: both;}
+/* styling the body*/
+body { 
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/Images/homepagepiccturejpg);
+  background-color: rgb(0, 0, 0);
+
+}
+/* styling the header */
+.header {
+  overflow: auto;
+  background-color: rgba(245, 222, 179, 0.205);
+  padding: 20px 10px;
+}
+/* styling the header links */
+.header a {
+  float: left;
+  color: wheat;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 20px;
+  border-radius: 5px;
+}
+/* The logo is used as a link; and here is its style */
+.header a.logo {
+  font-size: 55px;
+  font-weight: bold;
+  font-family: cursive;
+  border: 3px solid wheat;
+  border-radius: 20px;
+  padding: 18px;
+}
+.header a:hover {
+  background-color: brown;
+  color: wheat;
+}
+
+.header a.active {
+  background-color: wheat;
+  color: rgb(0, 0, 0);
+}
+
+.header-right {
+  float: right;
+}
+/* Styling the section */
+
+/* styling the complement Section*/
+/* The Assalam and Welcome styles */
+
+/* Welcome to Athzkar styles */
+#complement2{
+  background-color: rgba(245, 222, 179, 0.514);
+  float: left;
+  width: 45%;
+  padding: 0px 10px 5px 20px;
+  text-align: center;
+  max-width: 45%;
+  border-radius: 10px;
+  margin-left: 1%;
+}
+/* Assakamu Alaikum */
+#complement1 h1{
+ float: right;
+}
+#complement1{
+  background-color:  rgba(245, 222, 179, 0.514);
+  float: right;
+  width: 45%;
+  padding: 0px 10px 5px 20px;
+  border-radius: 10px;
+  margin-left: 1%;
+}
+/* Importance and Explore styles */
+.homebuttons{
+  float: right;
+  width: 12%;
+  border: none;
+  border: 2px solid brown;
+  border-radius: 10px;
+  margin: 2% 5% 0% 0%;
+  line-height: 40px;
+  background-color: wheat;
+  color: brown;
+  font-weight: normal;
+  cursor: pointer;
+}
+/* Importance and Explore links styles */
+.homebuttons a{
+  text-decoration: none;
+  color: rgb(143, 98, 14);
+}
+.homebuttons:hover{
+  background-color: brown;
+  color: wheat;
+  border: 1px solid wheat;
+}
+/* Morning and Evening Athzkars Example */
+.athzkars{
+  border: 2px solid wheat;
+  border-radius: 10px;
+  width: 40%;
+  display: inline-block;
+  color: wheat;
+  line-height: 30px;
+  padding: 0 2% 0 2%;
+  margin: 3% 4% 3% 5%;
+  font-size: 20px;
+  text-align: right;
+  font-family: 'Courier New', Courier, monospace;
+}
+/* Morning and Evening Athzkar Buttons */
+.athzkarsbtn{
+  text-align: center;
+  width: 28%;
+  line-height: 20px;
+  margin: 0 40% 3% 35%;
+  background-color: wheat;
+  border: 2px solid brown;
+  border-radius: 10px;
+  padding: 2%;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  color: brown;
+}
+.athzkars a{
+  text-decoration: none;
+  color: brown;
+}
+.athzkars a:hover{
+  color: wheat;
+}
+/* Morning and Evening athzkar's button on hover style*/
+.athzkarsbtn:hover{
+  background-color: brown;
+  border: 1px solid wheat;
+  color:wheat;
+}
+/* styling the footer */
+
+#footer{
+  background-color:rgba(245, 222, 179, 0.205);
+  padding: 0 2px 5px 2px;
+  text-align: center;
+  font-size: 14px;
+}
+/* styling the footer links */
+#footer ul{
+  padding: 0 1% 0 1%;
+  
+}
+#footer ul li{
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  padding: 1%;
+}
+#footer ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+#footer ul li a:hover{color: wheat;}
+#UsmanArazakxCodeGeria{
+  color: wheat;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Alhamdulillah The end of style for Athzkar Homepage*/

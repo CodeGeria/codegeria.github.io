@@ -1,0 +1,30 @@
+@media screen and (min-width: 200px) and (max-width:920px){
+    *{
+       box-sizing: border-box;
+    }
+       #matext {
+        color: wheat;
+        float: left;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 25px;
+        margin: 0 0 0% 5%;
+      }
+      .maheader a {
+        float: left;
+        color: wheat;
+        text-align: center;
+        padding: 8px;
+        text-decoration: none;
+        font-size: 15px;
+        line-height: 20px;
+        border-radius: 5px;
+      }
+      .maheader a.logo {
+        font-size: 25px;
+        font-weight: bold;
+        font-family: cursive;
+        border: 3px solid wheat;
+        border-radius: 20px;
+        padding: 10px;
+      }
+}

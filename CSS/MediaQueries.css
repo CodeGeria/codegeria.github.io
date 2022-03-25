@@ -1,0 +1,64 @@
+@media screen and (min-width: 200px) and (max-width:920px) {
+  *{
+    box-sizing: border-box;
+  } 
+  .header a.logo{
+       font-size: 30px;
+       border-radius: 20px;
+       padding: 10px;
+       display: block;
+       float: left;
+   }
+    .header a {
+      display: block;
+      text-align: left;
+      font-size: small;
+      line-height: 15px;
+    }
+    /* Styling the Section*/
+    .complements{
+      display: inline-block;
+      margin: -10px 5px 0 5px;
+    }
+   #complement2{
+     width: 100%;
+     max-width: 98%;
+     margin-top: 15px;
+     margin-left: 1%;
+   }
+   #complement1{
+    width: 98%;
+
+  }
+
+  .homebuttons{
+    width: 35%;
+    margin: 2% 8% 2% 0%;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+  }
+  .homebuttons a{
+    text-decoration: none;
+    color: wheat;
+  }
+.athzkars{
+  width: 85%;
+  display: block;
+  margin-left: 8%;
+}
+.athzkarsbtn{
+  width: 50%;
+  line-height: 20px;
+  margin: 0 30% 1% 25%;
+  background-color: wheat;
+  border: 2px solid brown;
+  border-radius: 10px;
+  padding: 2%;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  color: brown;
+}
+ 
+/* Alhamdulillah we're done with the homepage's Responsiveness */
+
+}

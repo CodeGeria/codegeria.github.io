@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/Images/homepagepiccturejpg);
+  background-color: rgb(0, 0, 0);
+}
+/* styling the header */
+.maheader {
+  overflow: auto;
+  background-color: rgba(245, 222, 179, 0.205);
+  padding: 20px 10px;
+}
+/* styling the header links */
+.maheader a {
+  float: left;
+  color: wheat;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 20px;
+  border-radius: 5px;
+}
+/* The logo is used as a link; and here is its style */
+.maheader a.logo {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  border: 3px solid wheat;
+  border-radius: 20px;
+  padding: 10px;
+}
+.maheader a:hover {
+  background-color: brown;
+  color: wheat;
+}
+
+.maheader a.active {
+  background-color: wheat;
+  color: rgb(0, 0, 0);
+}
+
+.maheader-right {
+  float: right;
+}
+#matext {
+  color: wheat;
+  float: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  margin: 0 0 0% 25%;
+}
